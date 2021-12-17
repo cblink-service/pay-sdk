@@ -1,0 +1,22 @@
+{
+    "name": "cblink-service/pay-sdk",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick",
+            "email": "me@xieying.vip"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "cblink-service/foundation": "^1.0",
+        "ramsey/uuid": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cblink\\Service\\Pay\\": "src"
+        }
+    }
+}
